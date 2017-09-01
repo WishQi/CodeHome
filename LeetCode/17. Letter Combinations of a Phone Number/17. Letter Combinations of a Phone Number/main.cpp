@@ -12,6 +12,7 @@
 
 using namespace std;
 
+// 时间复杂度太高了
 class Solution {
 public:
     vector<string> letterCombinations(string digits) {
