@@ -21,10 +21,8 @@ class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
         for (auto itr = lists.begin(); itr != lists.end(); ) {
-            if (*itr == NULL)
-                itr = lists.erase(itr);
-            else
-                ++itr;
+            if (*itr == NULL) itr = lists.erase(itr);
+            else ++itr;
         }
         if (lists.empty()) return NULL;
         vector<int> vals;
