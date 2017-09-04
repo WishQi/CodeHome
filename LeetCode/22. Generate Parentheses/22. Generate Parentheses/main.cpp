@@ -13,7 +13,7 @@
 using namespace std;
 
 // wrong answer
-class Solution {
+class Solution1 {
 public:
     vector<string> generateParenthesis(int n) {
         if (n == 1) return vector<string>(1, "()");
@@ -34,7 +34,7 @@ public:
     }
 };
 
-class Solution1 {
+class Solution {
 public:
     vector<string> generateParenthesis(int n) {
         vector<string> res;
@@ -58,7 +58,7 @@ public:
 int main(int argc, const char * argv[]) {
     int n = 0;
     while (cin >> n) {
-        vector<string> res = Solution1().generateParenthesis(n);
+        vector<string> res = Solution().generateParenthesis(n);
         for (int i = 0; i < res.size(); ++i) {
             cout << res[i] << endl;
         }
