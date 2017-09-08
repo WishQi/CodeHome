@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F81D5D1B1F469F0C00C9408E /* LongestSubstringWithoutRepeatingCharacters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LongestSubstringWithoutRepeatingCharacters; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81D5D1B1F469F0C00C9408E /* 3. Longest Substring Without Repeating Characters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3. Longest Substring Without Repeating Characters"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81D5D1E1F469F0C00C9408E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		F81D5D1C1F469F0C00C9408E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F81D5D1B1F469F0C00C9408E /* LongestSubstringWithoutRepeatingCharacters */,
+				F81D5D1B1F469F0C00C9408E /* 3. Longest Substring Without Repeating Characters */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F81D5D1A1F469F0C00C9408E /* LongestSubstringWithoutRepeatingCharacters */ = {
+		F81D5D1A1F469F0C00C9408E /* 3. Longest Substring Without Repeating Characters */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F81D5D221F469F0C00C9408E /* Build configuration list for PBXNativeTarget "LongestSubstringWithoutRepeatingCharacters" */;
+			buildConfigurationList = F81D5D221F469F0C00C9408E /* Build configuration list for PBXNativeTarget "3. Longest Substring Without Repeating Characters" */;
 			buildPhases = (
 				F81D5D171F469F0C00C9408E /* Sources */,
 				F81D5D181F469F0C00C9408E /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = LongestSubstringWithoutRepeatingCharacters;
+			name = "3. Longest Substring Without Repeating Characters";
 			productName = LongestSubstringWithoutRepeatingCharacters;
-			productReference = F81D5D1B1F469F0C00C9408E /* LongestSubstringWithoutRepeatingCharacters */;
+			productReference = F81D5D1B1F469F0C00C9408E /* 3. Longest Substring Without Repeating Characters */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F81D5D161F469F0C00C9408E /* Build configuration list for PBXProject "LongestSubstringWithoutRepeatingCharacters" */;
+			buildConfigurationList = F81D5D161F469F0C00C9408E /* Build configuration list for PBXProject "3. Longest Substring Without Repeating Characters" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F81D5D1A1F469F0C00C9408E /* LongestSubstringWithoutRepeatingCharacters */,
+				F81D5D1A1F469F0C00C9408E /* 3. Longest Substring Without Repeating Characters */,
 			);
 		};
 /* End PBXProject section */
@@ -235,7 +235,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F81D5D161F469F0C00C9408E /* Build configuration list for PBXProject "LongestSubstringWithoutRepeatingCharacters" */ = {
+		F81D5D161F469F0C00C9408E /* Build configuration list for PBXProject "3. Longest Substring Without Repeating Characters" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F81D5D201F469F0C00C9408E /* Debug */,
@@ -244,13 +244,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F81D5D221F469F0C00C9408E /* Build configuration list for PBXNativeTarget "LongestSubstringWithoutRepeatingCharacters" */ = {
+		F81D5D221F469F0C00C9408E /* Build configuration list for PBXNativeTarget "3. Longest Substring Without Repeating Characters" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F81D5D231F469F0C00C9408E /* Debug */,
 				F81D5D241F469F0C00C9408E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

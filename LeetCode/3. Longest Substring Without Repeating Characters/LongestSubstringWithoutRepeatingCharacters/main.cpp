@@ -16,6 +16,7 @@ using namespace std;
 
 class Solution {
 public:
+    // 35 ms(AC)
     int lengthOfLongestSubstring(string s) {
         if (s.empty()) return 0;
         map<char, int> table = {};
@@ -40,12 +41,26 @@ public:
         }
         return *max_element(lengthArr.begin(), lengthArr.end());
     }
+    // 35 ms(AC)
+    int lengthOfLongestSubstring1(string s) {
+        map<char, int> table;
+        int res = 0;
+        int n = (int)s.length();
+        for (int i = 0, j = 0; j < n; ++j) {
+            if (table.count(s[j])) {
+                i = max(i, table[s[j]] + 1);
+            }
+            res = max(res, j - i + 1);
+            table[s[j]] = j;
+        }
+        return res;
+    }
 };
 
 int main(int argc, const char * argv[]) {
     
     string s = "12345";
-    cout << Solution().lengthOfLongestSubstring(s) << endl;
+    cout << Solution().lengthOfLongestSubstring1(s) << endl;
     
     return 0;
 }
