@@ -18,6 +18,7 @@ struct ListNode {
 
 class Solution {
 public:
+    // 72 ms(AC)
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         ListNode *p1 = l1, *p2 = l2;
         ListNode *head = new ListNode(p1->val + p2->val);
@@ -57,6 +58,24 @@ public:
         }
         return head;
     }
+    // 38 ms(AC)
+    ListNode* addTwoNumbers1(ListNode* l1, ListNode* l2) {
+        ListNode *head = new ListNode(0), *curr = head;
+        ListNode *p = l1, *q = l2;
+        int carry = 0;
+        while (p != NULL || q != NULL) {
+            int x = (p != NULL) ? p->val : 0;
+            int y = (q != NULL) ? q->val : 0;
+            int sum = x + y + carry;
+            carry = sum / 10;
+            curr->next = new ListNode(sum % 10);
+            curr = curr->next;
+            if (p != NULL) p = p->next;
+            if (q != NULL) q = q->next;
+        }
+        if (carry) curr->next = new ListNode(carry);
+        return head->next;
+    }
 };
 
 int main(int argc, const char * argv[]) {
@@ -69,7 +88,7 @@ int main(int argc, const char * argv[]) {
     l2->next = new ListNode(6);
     l2->next->next = new ListNode(4);
     
-    ListNode *result = Solution().addTwoNumbers(l1, l2);
+    ListNode *result = Solution().addTwoNumbers1(l1, l2);
     while (result != NULL) {
         cout << result->val << " ";
         result = result->next;

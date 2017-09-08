@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F81D5D081F468ECF00C9408E /* AddTwoNumbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AddTwoNumbers; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81D5D081F468ECF00C9408E /* 2. Add Two Numbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2. Add Two Numbers"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81D5D0B1F468ECF00C9408E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = main.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		F81D5D091F468ECF00C9408E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F81D5D081F468ECF00C9408E /* AddTwoNumbers */,
+				F81D5D081F468ECF00C9408E /* 2. Add Two Numbers */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F81D5D071F468ECF00C9408E /* AddTwoNumbers */ = {
+		F81D5D071F468ECF00C9408E /* 2. Add Two Numbers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F81D5D0F1F468ECF00C9408E /* Build configuration list for PBXNativeTarget "AddTwoNumbers" */;
+			buildConfigurationList = F81D5D0F1F468ECF00C9408E /* Build configuration list for PBXNativeTarget "2. Add Two Numbers" */;
 			buildPhases = (
 				F81D5D041F468ECF00C9408E /* Sources */,
 				F81D5D051F468ECF00C9408E /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = AddTwoNumbers;
+			name = "2. Add Two Numbers";
 			productName = AddTwoNumbers;
-			productReference = F81D5D081F468ECF00C9408E /* AddTwoNumbers */;
+			productReference = F81D5D081F468ECF00C9408E /* 2. Add Two Numbers */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F81D5D031F468ECF00C9408E /* Build configuration list for PBXProject "AddTwoNumbers" */;
+			buildConfigurationList = F81D5D031F468ECF00C9408E /* Build configuration list for PBXProject "2. Add Two Numbers" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F81D5D071F468ECF00C9408E /* AddTwoNumbers */,
+				F81D5D071F468ECF00C9408E /* 2. Add Two Numbers */,
 			);
 		};
 /* End PBXProject section */
@@ -235,7 +235,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F81D5D031F468ECF00C9408E /* Build configuration list for PBXProject "AddTwoNumbers" */ = {
+		F81D5D031F468ECF00C9408E /* Build configuration list for PBXProject "2. Add Two Numbers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F81D5D0D1F468ECF00C9408E /* Debug */,
@@ -244,13 +244,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F81D5D0F1F468ECF00C9408E /* Build configuration list for PBXNativeTarget "AddTwoNumbers" */ = {
+		F81D5D0F1F468ECF00C9408E /* Build configuration list for PBXNativeTarget "2. Add Two Numbers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F81D5D101F468ECF00C9408E /* Debug */,
 				F81D5D111F468ECF00C9408E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
