@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Two Sum.xcodeproj">
+      location = "self:/Users/limaoqi/Developer/CodeHome/LeetCode/Two Sum/1. Two Sum.xcodeproj">
    </FileRef>
 </Workspace>

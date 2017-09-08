@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F8E05F7D1F45635200D67698 /* Two Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Two Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E05F7D1F45635200D67698 /* 1. Two Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1. Two Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E05F801F45635200D67698 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		F8E05F7E1F45635200D67698 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8E05F7D1F45635200D67698 /* Two Sum */,
+				F8E05F7D1F45635200D67698 /* 1. Two Sum */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F8E05F7C1F45635200D67698 /* Two Sum */ = {
+		F8E05F7C1F45635200D67698 /* 1. Two Sum */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8E05F841F45635200D67698 /* Build configuration list for PBXNativeTarget "Two Sum" */;
+			buildConfigurationList = F8E05F841F45635200D67698 /* Build configuration list for PBXNativeTarget "1. Two Sum" */;
 			buildPhases = (
 				F8E05F791F45635200D67698 /* Sources */,
 				F8E05F7A1F45635200D67698 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = "Two Sum";
+			name = "1. Two Sum";
 			productName = "Two Sum";
-			productReference = F8E05F7D1F45635200D67698 /* Two Sum */;
+			productReference = F8E05F7D1F45635200D67698 /* 1. Two Sum */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F8E05F781F45635200D67698 /* Build configuration list for PBXProject "Two Sum" */;
+			buildConfigurationList = F8E05F781F45635200D67698 /* Build configuration list for PBXProject "1. Two Sum" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8E05F7C1F45635200D67698 /* Two Sum */,
+				F8E05F7C1F45635200D67698 /* 1. Two Sum */,
 			);
 		};
 /* End PBXProject section */
@@ -235,7 +235,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F8E05F781F45635200D67698 /* Build configuration list for PBXProject "Two Sum" */ = {
+		F8E05F781F45635200D67698 /* Build configuration list for PBXProject "1. Two Sum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8E05F821F45635200D67698 /* Debug */,
@@ -244,13 +244,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8E05F841F45635200D67698 /* Build configuration list for PBXNativeTarget "Two Sum" */ = {
+		F8E05F841F45635200D67698 /* Build configuration list for PBXNativeTarget "1. Two Sum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8E05F851F45635200D67698 /* Debug */,
 				F8E05F861F45635200D67698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
