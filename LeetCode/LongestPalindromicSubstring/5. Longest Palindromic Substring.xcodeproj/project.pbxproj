@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F888B56B1F4D26F0008C7C3D /* LongestPalindromicSubstring */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LongestPalindromicSubstring; sourceTree = BUILT_PRODUCTS_DIR; };
+		F888B56B1F4D26F0008C7C3D /* 5. Longest Palindromic Substring */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5. Longest Palindromic Substring"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F888B56E1F4D26F0008C7C3D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		F888B56C1F4D26F0008C7C3D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F888B56B1F4D26F0008C7C3D /* LongestPalindromicSubstring */,
+				F888B56B1F4D26F0008C7C3D /* 5. Longest Palindromic Substring */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F888B56A1F4D26F0008C7C3D /* LongestPalindromicSubstring */ = {
+		F888B56A1F4D26F0008C7C3D /* 5. Longest Palindromic Substring */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F888B5721F4D26F0008C7C3D /* Build configuration list for PBXNativeTarget "LongestPalindromicSubstring" */;
+			buildConfigurationList = F888B5721F4D26F0008C7C3D /* Build configuration list for PBXNativeTarget "5. Longest Palindromic Substring" */;
 			buildPhases = (
 				F888B5671F4D26F0008C7C3D /* Sources */,
 				F888B5681F4D26F0008C7C3D /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = LongestPalindromicSubstring;
+			name = "5. Longest Palindromic Substring";
 			productName = LongestPalindromicSubstring;
-			productReference = F888B56B1F4D26F0008C7C3D /* LongestPalindromicSubstring */;
+			productReference = F888B56B1F4D26F0008C7C3D /* 5. Longest Palindromic Substring */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F888B5661F4D26F0008C7C3D /* Build configuration list for PBXProject "LongestPalindromicSubstring" */;
+			buildConfigurationList = F888B5661F4D26F0008C7C3D /* Build configuration list for PBXProject "5. Longest Palindromic Substring" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F888B56A1F4D26F0008C7C3D /* LongestPalindromicSubstring */,
+				F888B56A1F4D26F0008C7C3D /* 5. Longest Palindromic Substring */,
 			);
 		};
 /* End PBXProject section */
@@ -235,7 +235,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F888B5661F4D26F0008C7C3D /* Build configuration list for PBXProject "LongestPalindromicSubstring" */ = {
+		F888B5661F4D26F0008C7C3D /* Build configuration list for PBXProject "5. Longest Palindromic Substring" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F888B5701F4D26F0008C7C3D /* Debug */,
@@ -244,13 +244,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F888B5721F4D26F0008C7C3D /* Build configuration list for PBXNativeTarget "LongestPalindromicSubstring" */ = {
+		F888B5721F4D26F0008C7C3D /* Build configuration list for PBXNativeTarget "5. Longest Palindromic Substring" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F888B5731F4D26F0008C7C3D /* Debug */,
 				F888B5741F4D26F0008C7C3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
