@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F8FBF5241F4BD49F00599CED /* MedianOfTwoSortedArrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MedianOfTwoSortedArrays; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8FBF5241F4BD49F00599CED /* 4. Median of Two Sorted Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4. Median of Two Sorted Arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FBF5271F4BD49F00599CED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		F8FBF5251F4BD49F00599CED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8FBF5241F4BD49F00599CED /* MedianOfTwoSortedArrays */,
+				F8FBF5241F4BD49F00599CED /* 4. Median of Two Sorted Arrays */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F8FBF5231F4BD49F00599CED /* MedianOfTwoSortedArrays */ = {
+		F8FBF5231F4BD49F00599CED /* 4. Median of Two Sorted Arrays */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8FBF52B1F4BD49F00599CED /* Build configuration list for PBXNativeTarget "MedianOfTwoSortedArrays" */;
+			buildConfigurationList = F8FBF52B1F4BD49F00599CED /* Build configuration list for PBXNativeTarget "4. Median of Two Sorted Arrays" */;
 			buildPhases = (
 				F8FBF5201F4BD49F00599CED /* Sources */,
 				F8FBF5211F4BD49F00599CED /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = MedianOfTwoSortedArrays;
+			name = "4. Median of Two Sorted Arrays";
 			productName = MedianOfTwoSortedArrays;
-			productReference = F8FBF5241F4BD49F00599CED /* MedianOfTwoSortedArrays */;
+			productReference = F8FBF5241F4BD49F00599CED /* 4. Median of Two Sorted Arrays */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F8FBF51F1F4BD49F00599CED /* Build configuration list for PBXProject "MedianOfTwoSortedArrays" */;
+			buildConfigurationList = F8FBF51F1F4BD49F00599CED /* Build configuration list for PBXProject "4. Median of Two Sorted Arrays" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8FBF5231F4BD49F00599CED /* MedianOfTwoSortedArrays */,
+				F8FBF5231F4BD49F00599CED /* 4. Median of Two Sorted Arrays */,
 			);
 		};
 /* End PBXProject section */
@@ -235,7 +235,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F8FBF51F1F4BD49F00599CED /* Build configuration list for PBXProject "MedianOfTwoSortedArrays" */ = {
+		F8FBF51F1F4BD49F00599CED /* Build configuration list for PBXProject "4. Median of Two Sorted Arrays" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8FBF5291F4BD49F00599CED /* Debug */,
@@ -244,13 +244,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8FBF52B1F4BD49F00599CED /* Build configuration list for PBXNativeTarget "MedianOfTwoSortedArrays" */ = {
+		F8FBF52B1F4BD49F00599CED /* Build configuration list for PBXNativeTarget "4. Median of Two Sorted Arrays" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8FBF52C1F4BD49F00599CED /* Debug */,
 				F8FBF52D1F4BD49F00599CED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
