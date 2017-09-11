@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F8A32EFF1F4E7676007FDFA2 /* ZigZagConversion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZigZagConversion; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A32EFF1F4E7676007FDFA2 /* 6. ZigZag Conversion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6. ZigZag Conversion"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A32F021F4E7676007FDFA2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		F8A32F001F4E7676007FDFA2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8A32EFF1F4E7676007FDFA2 /* ZigZagConversion */,
+				F8A32EFF1F4E7676007FDFA2 /* 6. ZigZag Conversion */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F8A32EFE1F4E7676007FDFA2 /* ZigZagConversion */ = {
+		F8A32EFE1F4E7676007FDFA2 /* 6. ZigZag Conversion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8A32F061F4E7676007FDFA2 /* Build configuration list for PBXNativeTarget "ZigZagConversion" */;
+			buildConfigurationList = F8A32F061F4E7676007FDFA2 /* Build configuration list for PBXNativeTarget "6. ZigZag Conversion" */;
 			buildPhases = (
 				F8A32EFB1F4E7676007FDFA2 /* Sources */,
 				F8A32EFC1F4E7676007FDFA2 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = ZigZagConversion;
+			name = "6. ZigZag Conversion";
 			productName = ZigZagConversion;
-			productReference = F8A32EFF1F4E7676007FDFA2 /* ZigZagConversion */;
+			productReference = F8A32EFF1F4E7676007FDFA2 /* 6. ZigZag Conversion */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F8A32EFA1F4E7676007FDFA2 /* Build configuration list for PBXProject "ZigZagConversion" */;
+			buildConfigurationList = F8A32EFA1F4E7676007FDFA2 /* Build configuration list for PBXProject "6. ZigZag Conversion" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8A32EFE1F4E7676007FDFA2 /* ZigZagConversion */,
+				F8A32EFE1F4E7676007FDFA2 /* 6. ZigZag Conversion */,
 			);
 		};
 /* End PBXProject section */
@@ -235,7 +235,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F8A32EFA1F4E7676007FDFA2 /* Build configuration list for PBXProject "ZigZagConversion" */ = {
+		F8A32EFA1F4E7676007FDFA2 /* Build configuration list for PBXProject "6. ZigZag Conversion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8A32F041F4E7676007FDFA2 /* Debug */,
@@ -244,13 +244,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8A32F061F4E7676007FDFA2 /* Build configuration list for PBXNativeTarget "ZigZagConversion" */ = {
+		F8A32F061F4E7676007FDFA2 /* Build configuration list for PBXNativeTarget "6. ZigZag Conversion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8A32F071F4E7676007FDFA2 /* Debug */,
 				F8A32F081F4E7676007FDFA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

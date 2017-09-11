@@ -14,6 +14,7 @@ using namespace std;
 
 class Solution {
 public:
+    // 25ms, AC, O(n)
     string convert(string s, int numRows) {
         vector<string> result(numRows, "");
         int step = numRows - 1, n = (int)s.length();
@@ -36,11 +37,32 @@ public:
         }
         return rs;
     }
+    string convert1(string s, int numRows) {
+        if (numRows == 1) return s;
+        vector<string> res(numRows, "");
+        int n = (int)s.length(), step = numRows - 1, group = n / step;
+        for (int i = 0; i <= group; ++i) {
+            for (int j = 0; j < step; ++j) {
+                int index = i * step + j;
+                if (index >= n) break;
+                if (i % 2 == 0) {
+                    res[j] += s[index];
+                } else {
+                    res[step - j] += s[index];
+                }
+            }
+        }
+        string rs = "";
+        for (int i = 0; i < numRows; ++i) {
+            rs += res[i];
+        }
+        return rs;
+    }
 };
 
 int main(int argc, const char * argv[]) {
     
-    cout << (Solution().convert("PAYPALISHIRING", 4) == "PINALSIGYAHRPI") << endl;
+    cout << (Solution().convert1("PAYPALISHIRING", 4) == "PINALSIGYAHRPI") << endl;
     
     return 0;
 }
