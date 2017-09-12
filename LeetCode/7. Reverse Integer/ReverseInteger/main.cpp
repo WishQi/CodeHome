@@ -14,6 +14,7 @@ using namespace std;
 
 class Solution {
 public:
+    // 16ms, AC, 需要额外空间
     int reverse(int32_t x) {
         if (x == INT32_MIN) return 0;
         vector<int> digits;
@@ -35,10 +36,24 @@ public:
         }
         return x;
     }
+    // 22ms, AC
+    int reverse1(int32_t x) {
+        int res = 0;
+        while (x != 0) {
+            int tail = x % 10;
+            int newRes = res * 10 + tail;
+            if ((newRes - tail) / 10 != res) return 0;
+            res = newRes;
+            x /= 10;
+        }
+        return res;
+    }
 };
 
 int main(int argc, const char * argv[]) {
     cout << INT32_MIN << endl;
-    cout << Solution().reverse(INT32_MIN) << endl;
+    cout << Solution().reverse1(-123) << endl;
+    int a = -20;
+    cout << a % 3 << endl;
     return 0;
 }
