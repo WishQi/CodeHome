@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F8487ED81F53C2BB00F29842 /* PalindromeNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PalindromeNumber; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8487ED81F53C2BB00F29842 /* 9. Palindrome Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9. Palindrome Number"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8487EDB1F53C2BB00F29842 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		F8487ED91F53C2BB00F29842 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8487ED81F53C2BB00F29842 /* PalindromeNumber */,
+				F8487ED81F53C2BB00F29842 /* 9. Palindrome Number */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F8487ED71F53C2BB00F29842 /* PalindromeNumber */ = {
+		F8487ED71F53C2BB00F29842 /* 9. Palindrome Number */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8487EDF1F53C2BB00F29842 /* Build configuration list for PBXNativeTarget "PalindromeNumber" */;
+			buildConfigurationList = F8487EDF1F53C2BB00F29842 /* Build configuration list for PBXNativeTarget "9. Palindrome Number" */;
 			buildPhases = (
 				F8487ED41F53C2BB00F29842 /* Sources */,
 				F8487ED51F53C2BB00F29842 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = PalindromeNumber;
+			name = "9. Palindrome Number";
 			productName = PalindromeNumber;
-			productReference = F8487ED81F53C2BB00F29842 /* PalindromeNumber */;
+			productReference = F8487ED81F53C2BB00F29842 /* 9. Palindrome Number */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F8487ED31F53C2BB00F29842 /* Build configuration list for PBXProject "PalindromeNumber" */;
+			buildConfigurationList = F8487ED31F53C2BB00F29842 /* Build configuration list for PBXProject "9. Palindrome Number" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8487ED71F53C2BB00F29842 /* PalindromeNumber */,
+				F8487ED71F53C2BB00F29842 /* 9. Palindrome Number */,
 			);
 		};
 /* End PBXProject section */
@@ -235,7 +235,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F8487ED31F53C2BB00F29842 /* Build configuration list for PBXProject "PalindromeNumber" */ = {
+		F8487ED31F53C2BB00F29842 /* Build configuration list for PBXProject "9. Palindrome Number" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8487EDD1F53C2BB00F29842 /* Debug */,
@@ -244,13 +244,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8487EDF1F53C2BB00F29842 /* Build configuration list for PBXNativeTarget "PalindromeNumber" */ = {
+		F8487EDF1F53C2BB00F29842 /* Build configuration list for PBXNativeTarget "9. Palindrome Number" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8487EE01F53C2BB00F29842 /* Debug */,
 				F8487EE11F53C2BB00F29842 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
