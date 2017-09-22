@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F8487EEB1F53F12500F29842 /* RegularExpressionMatching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RegularExpressionMatching; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8487EEB1F53F12500F29842 /* 10. Regular Expression Matching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10. Regular Expression Matching"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8487EEE1F53F12500F29842 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		F8487EEC1F53F12500F29842 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8487EEB1F53F12500F29842 /* RegularExpressionMatching */,
+				F8487EEB1F53F12500F29842 /* 10. Regular Expression Matching */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F8487EEA1F53F12500F29842 /* RegularExpressionMatching */ = {
+		F8487EEA1F53F12500F29842 /* 10. Regular Expression Matching */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8487EF21F53F12500F29842 /* Build configuration list for PBXNativeTarget "RegularExpressionMatching" */;
+			buildConfigurationList = F8487EF21F53F12500F29842 /* Build configuration list for PBXNativeTarget "10. Regular Expression Matching" */;
 			buildPhases = (
 				F8487EE71F53F12500F29842 /* Sources */,
 				F8487EE81F53F12500F29842 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = RegularExpressionMatching;
+			name = "10. Regular Expression Matching";
 			productName = RegularExpressionMatching;
-			productReference = F8487EEB1F53F12500F29842 /* RegularExpressionMatching */;
+			productReference = F8487EEB1F53F12500F29842 /* 10. Regular Expression Matching */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F8487EE61F53F12500F29842 /* Build configuration list for PBXProject "RegularExpressionMatching" */;
+			buildConfigurationList = F8487EE61F53F12500F29842 /* Build configuration list for PBXProject "10. Regular Expression Matching" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8487EEA1F53F12500F29842 /* RegularExpressionMatching */,
+				F8487EEA1F53F12500F29842 /* 10. Regular Expression Matching */,
 			);
 		};
 /* End PBXProject section */
@@ -235,7 +235,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F8487EE61F53F12500F29842 /* Build configuration list for PBXProject "RegularExpressionMatching" */ = {
+		F8487EE61F53F12500F29842 /* Build configuration list for PBXProject "10. Regular Expression Matching" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8487EF01F53F12500F29842 /* Debug */,
@@ -244,13 +244,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8487EF21F53F12500F29842 /* Build configuration list for PBXNativeTarget "RegularExpressionMatching" */ = {
+		F8487EF21F53F12500F29842 /* Build configuration list for PBXNativeTarget "10. Regular Expression Matching" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8487EF31F53F12500F29842 /* Debug */,
 				F8487EF41F53F12500F29842 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
