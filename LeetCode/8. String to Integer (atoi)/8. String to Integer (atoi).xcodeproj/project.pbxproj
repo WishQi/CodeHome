@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F8C4BE361F4FCB4800E570FB /* StringToInteger(atoi) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "StringToInteger(atoi)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C4BE361F4FCB4800E570FB /* 8. String to Integer (atoi) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "8. String to Integer (atoi)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C4BE391F4FCB4800E570FB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		F8C4BE371F4FCB4800E570FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8C4BE361F4FCB4800E570FB /* StringToInteger(atoi) */,
+				F8C4BE361F4FCB4800E570FB /* 8. String to Integer (atoi) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F8C4BE351F4FCB4800E570FB /* StringToInteger(atoi) */ = {
+		F8C4BE351F4FCB4800E570FB /* 8. String to Integer (atoi) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8C4BE3D1F4FCB4800E570FB /* Build configuration list for PBXNativeTarget "StringToInteger(atoi)" */;
+			buildConfigurationList = F8C4BE3D1F4FCB4800E570FB /* Build configuration list for PBXNativeTarget "8. String to Integer (atoi)" */;
 			buildPhases = (
 				F8C4BE321F4FCB4800E570FB /* Sources */,
 				F8C4BE331F4FCB4800E570FB /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = "StringToInteger(atoi)";
+			name = "8. String to Integer (atoi)";
 			productName = "StringToInteger(atoi)";
-			productReference = F8C4BE361F4FCB4800E570FB /* StringToInteger(atoi) */;
+			productReference = F8C4BE361F4FCB4800E570FB /* 8. String to Integer (atoi) */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F8C4BE311F4FCB4800E570FB /* Build configuration list for PBXProject "StringToInteger(atoi)" */;
+			buildConfigurationList = F8C4BE311F4FCB4800E570FB /* Build configuration list for PBXProject "8. String to Integer (atoi)" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8C4BE351F4FCB4800E570FB /* StringToInteger(atoi) */,
+				F8C4BE351F4FCB4800E570FB /* 8. String to Integer (atoi) */,
 			);
 		};
 /* End PBXProject section */
@@ -235,7 +235,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F8C4BE311F4FCB4800E570FB /* Build configuration list for PBXProject "StringToInteger(atoi)" */ = {
+		F8C4BE311F4FCB4800E570FB /* Build configuration list for PBXProject "8. String to Integer (atoi)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8C4BE3B1F4FCB4800E570FB /* Debug */,
@@ -244,13 +244,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8C4BE3D1F4FCB4800E570FB /* Build configuration list for PBXNativeTarget "StringToInteger(atoi)" */ = {
+		F8C4BE3D1F4FCB4800E570FB /* Build configuration list for PBXNativeTarget "8. String to Integer (atoi)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8C4BE3E1F4FCB4800E570FB /* Debug */,
 				F8C4BE3F1F4FCB4800E570FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
