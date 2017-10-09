@@ -9,38 +9,36 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <set>
+#include <map>
 
 using namespace std;
 
 class Solution {
 public:
-    // Time Limit Exceeded
+    // 35ms, AC, O(n * (k * lgk)):n为字符串数组长度，k为最长字符串的长度
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
         vector<vector<string>> res;
-        set<string> keys;
+        map<string, vector<string>> table;
         for (int i = 0; i < (int)strs.size(); i++) {
-            string keyStr = strs[i];
-            sort(keyStr.begin(), keyStr.end());
-            if (keys.count(keyStr) != 0) continue;
-            keys.insert(keyStr);
-            vector<string> tmpStrs = {strs[i]};
-            for (int j = i + 1; j < (int)strs.size(); j++) {
-                string str = strs[j];
-                sort(str.begin(), str.end());
-                if (str == keyStr) tmpStrs.push_back(strs[j]);
-            }
-            res.push_back(tmpStrs);
+            string tmpStr = strs[i];
+            sort(tmpStr.begin(), tmpStr.end());
+            table[tmpStr].push_back(strs[i]);
+        }
+        for (auto itr = table.begin(); itr != table.end(); itr++) {
+            res.push_back(itr->second);
         }
         return res;
-    }
-    vector<vector<string>> groupAnagrams1(vector<string>& strs) {
-        
     }
 };
 
 int main(int argc, const char * argv[]) {
     vector<string> arr = {"eat", "tea", "tan", "ate", "nat", "bat"};
-    Solution().groupAnagrams(arr);
+    vector<vector<string>> res = Solution().groupAnagrams(arr);
+    for (int i = 0; i < res.size(); i++) {
+        for (int j = 0; j < res[i].size(); j++) {
+            cout << res[i][j] << " ";
+        }
+        cout << endl;
+    }
     return 0;
 }
