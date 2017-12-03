@@ -19,7 +19,7 @@ struct TreeNode {
 
 class Solution {
 public:
-    // 39ms, AC
+    // 39ms, AC, O(n)
     TreeNode* convertBST(TreeNode* root) {
         int sum = 0;
         change(root, sum);
